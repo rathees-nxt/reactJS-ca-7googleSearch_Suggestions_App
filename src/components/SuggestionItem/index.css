@@ -1,0 +1,37 @@
+/* Write your CSS here */
+
+.suggestion-item-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.suggestion {
+  font-family: roboto;
+  font-size: 14px;
+  color: #475569;
+}
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.arrow-img {
+  height: 16px;
+  width: 16px;
+}
+@media screen and (min-width: 768px) {
+  .suggestion {
+    font-size: 21px;
+  }
+  .arrow-img {
+    height: 25px;
+    width: 25px;
+  }
+  .suggestion-item-list {
+    padding: 0px 15px 0px 15px;
+  }
+}

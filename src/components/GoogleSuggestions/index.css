@@ -1,0 +1,72 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.google-suggestion-container {
+  width: 90%;
+  max-width: 1180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo-img {
+  height: 70px;
+  width: 170px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.google-search-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.search-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 5px 0px;
+}
+
+.search-icon-img {
+  height: 15px;
+  width: 15px;
+}
+.search-input {
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  padding: 4px 0px 4px 9px;
+  color: #64748b;
+}
+.suggestion-item-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 5px;
+}
+@media screen and (min-width: 768px) {
+  .search-icon-img {
+    height: 25px;
+    width: 25px;
+  }
+  .search-input {
+    font-size: 24px;
+  }
+  .google-logo-img {
+    height: 150px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  .google-search-container {
+    width: 50%;
+  }
+}
