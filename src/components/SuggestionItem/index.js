@@ -2,11 +2,11 @@
 import './index.css'
 
 const SuggestionsList = props => {
-  const {eachListDetails, tosetSearchInput} = props
+  const {eachListDetails, toSetSearchInput} = props
   const {suggestion} = eachListDetails
 
   const onSetInput = () => {
-    tosetSearchInput(suggestion)
+    toSetSearchInput(suggestion)
   }
 
   return (
